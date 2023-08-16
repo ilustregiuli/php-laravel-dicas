@@ -1,0 +1,43 @@
+header {
+    background-color: rgb(46, 77, 78);
+    text-align: center;
+    color: white;
+}
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+footer {
+    position: relative;
+    color:rgb(8, 8, 105);
+    font-size: 1.5em;
+    background-color: rgb(188, 231, 231);
+}
+
+.title {
+    background-color: aquamarine;
+}
+
+.title-1 {
+    background-color: rgb(216, 102, 231)
+}
+
+.title-2 {
+    background-color: rgb(219, 57, 17);
+}
+
+.title-3 {
+    background-color: rgb(2, 51, 35);
+    color: white;
+}
+
+.title-4 {
+    background-color: rgb(54, 6, 109);
+    color: white;
+}
+
+.title-5 {
+    background-color: rgb(179, 197, 13);
+}
