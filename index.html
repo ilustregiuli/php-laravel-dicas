@@ -88,12 +88,37 @@
         </table>
     </section>  
     
-    <!-- Laravel básico -->
+        <!-- Laravel Básico -->
+        <section>
+            <table>
+                <thead>
+                <tr>
+                    <th class="title-2" colspan="2"> Laravel - Básico </th>
+                </tr> 
+                <tr> 
+                    <th> Comando </th>
+                    <th> O que faz </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <pre>echo 'algumas coisas'</pre> </td>
+                        <td> Escrever no console todas as coisas que se quer dizer </td>
+                    </tr>
+                    <tr>
+                        <td >Colocar acento</td>
+                        <td >Digitar toda palavra</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section> 
+
+    <!-- Laravel WEB -->
     <section>
         <table>
             <thead>
             <tr>
-                <th class="title-2" colspan="2"> Laravel - Básico </th>
+                <th class="title-5" colspan="2"> Laravel - WEB </th>
             </tr> 
             <tr> 
                 <th> Comando </th>
@@ -102,12 +127,26 @@
             </thead>
             <tbody>
                 <tr>
-                    <td >Escrever no console</td>
-                    <td >digitar "echo 'algumas coisas'"</td>
+                    <td><pre>return view('site.blade.php')->with('var_na_view', $var_aqui_no_back)</pre> </td>
+                    <td> Enviar parâmetros do Backend para Blade.
+                        <br> 
+                        <em> Primeiro parâmetro: Como a Var será chamada na view </em>    
+                        <br>
+                        <em> Segundo parâmetro: Var que terá valor passado pra view</em>
+                    </td>
                 </tr>
                 <tr>
-                    <td >Colocar acento</td>
-                    <td >Digitar toda palavra</td>
+                    <td> <pre>->where('id', '[0-9]+')->where('nome', '[A-Za-z]+');</pre> </td>
+                    <td > Função que nas rotas do arquivo web.php utiliza expressões regulares.
+                         <br>
+                         <em> Primeiro parâmetro: o parâmetro que vem da rota </em>
+                         <br>
+                         <em> Segundo parâmetro: a expressão regular:  '[0-9]+' 
+                         --> só permite receber algarismos de 0 a 9 e no mínimo um dígito, 
+                         '[A-Za-z]+' --> só permite receber letras de A a Z e no mínimo um caracter.
+                         </em>
+                         <br>
+                         <em></em> </td>
                 </tr>
             </tbody>
         </table>
@@ -138,30 +177,7 @@
         </table>
     </section> 
 
-    <!-- Laravel na web -->
-    <section>
-        <table>
-            <thead>
-            <tr>
-                <th class="title-5" colspan="2"> Laravel - Web </th>
-            </tr> 
-            <tr> 
-                <th> Comando </th>
-                <th> O que faz </th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td > <pre>echo 'algumas coisas'</pre> </td>
-                    <td > Escrever no console todas as coisas que se quer dizer </td>
-                </tr>
-                <tr>
-                    <td >Colocar acento</td>
-                    <td >Digitar toda palavra</td>
-                </tr>
-            </tbody>
-        </table>
-    </section> 
+
     
 
 
